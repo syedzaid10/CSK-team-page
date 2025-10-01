@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSK - Forever Champions</title>
+    <meta name="description" content="Futuristic 3D CSK fan experience. Whistle Podu - Forever Champions!" />
+    
+    <!-- Futuristic fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pap1D9+yN1r4u7cbTxCEjNnQb5f3bTqB5vP6p4Bj1P1kR+0fZ1YyKpQqVqraSbzq5Q0B6F5eTsa5J9XG2DR6VA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="futuristic-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="csk logo.jpg" alt="CSK Logo" class="logo-img">
+                <span class="logo-text">CSK</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#players" class="nav-link">Players</a></li>
+                <li><a href="#stats" class="nav-link">Stats</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="lion.jpg" alt="CSK Lion" class="roaring-lion">
+            </div>
+            <h1 class="hero-title">
+                <span class="whistle">WHISTLE</span>
+                <span class="podu">PODU</span>
+            </h1>
+            <h2 class="hero-subtitle">CHAMPIONS</h2>
+            <div class="floating-trophies">
+                <div class="trophy trophy-1">🏆</div>
+                <div class="trophy trophy-2">🏆</div>
+                <div class="trophy trophy-3">🏆</div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">IPL Titles</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Finals</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Matches Won</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Players Section -->
+    <section id="players" class="players-section">
+        <div class="container">
+            <h2 class="section-title">SQUAD LEGENDS</h2>
+            <p class="section-subtitle">Meet the champions who make the <span class="accent">Golden Roar</span> legendary</p>
+            
+            <div class="players-grid">
+                <div class="player-card legend" data-player="dhoni">
+                    <div class="player-avatar">
+                        <img src="ms dhoni.jpg" alt="MS Dhoni">
+                    </div>
+                    <h3 class="player-name">MS Dhoni</h3>
+                    <p class="player-role">Captain & Wicket-Keeper</p>
+                    <div class="legend-crown">👑</div>
+                </div>
+
+                <div class="player-card legend" data-player="Devon Conway">
+                    <div class="player-avatar">
+                        <img src="conway.jpg" alt="Devon Conway">
+                    </div>
+                    <h3 class="player-name">Devon Conway</h3>
+                    <p class="player-role">Batsman</p>
+                </div>
+
+                <div class="player-card legend" data-player="Dewald Brevis">
+                    <div class="player-avatar">
+                        <img src="brevis.jpg" alt="Dewald Brevis">
+                    </div>
+                    <h3 class="player-name">Dewald Brevis</h3>
+                    <p class="player-role">Batsman</p>
+                </div>
+
+                <div class="player-card legend" data-player="Rahul Tripathi">
+                    <div class="player-avatar">
+                        <img src="tripathi.jpg" alt="Rahul Tripathi">
+                    </div>
+                    <h3 class="player-name">Rahul Tripathi</h3>
+                    <p class="player-role">Batsman</p>
+                </div>
+
+                <div class="player-card legend" data-player="Ravindra Jadeja">
+                    <div class="player-avatar">
+                        <img src="jadeja.jpg" alt="Ravindra Jadeja">
+                    </div>
+                    <h3 class="player-name">Ravindra Jadeja</h3>
+                    <p class="player-role">All-Rounder</p>
+                </div>
+
+                <div class="player-card legend" data-player="Rachin Ravindra">
+                    <div class="player-avatar">
+                        <img src="rachin.jpg" alt="Rachin Ravindra">
+                    </div>
+                    <h3 class="player-name">Rachin Ravindra</h3>
+                    <p class="player-role">All-Rounder</p>
+                </div>
+
+                 <div class="player-card legend" data-player="Matheesha Pathirana">
+                    <div class="player-avatar">
+                        <img src="matheesha.jpg" alt="Matheesha Pathirana">
+                    </div>
+                    <h3 class="player-name">Matheesha Pathirana</h3>
+                    <p class="player-role">Bowler</p>
+                </div>
+
+                <div class="player-card legend" data-player="Shaik Rasheed">
+                    <div class="player-avatar">
+                        <img src="rasheed.jpg" alt="Shaik Rasheed">
+                    </div>
+                    <h3 class="player-name">Shaik Rasheed</h3>
+                    <p class="player-role">Batsman</p>
+                </div>
+
+                <div class="player-card" data-player="Deepak Hooda">
+                    <div class="player-avatar">
+                        <img src="deepak.jpg" alt="Deepak Hooda">
+                    </div>
+                    <h3 class="player-name">Deepak Hooda</h3>
+                    <p class="player-role">All-Rounder</p>
+                </div>
+
+                <div class="player-card" data-player="Jamie Overton">
+                    <div class="player-avatar">
+                        <img src="jamie.jpg" alt="Jamie Overton">
+                    </div>
+                    <h3 class="player-name">Jamie Overton</h3>
+                    <p class="player-role">All-Rounder</p>
+                </div>
+
+
+                <div class="player-card" data-player="sam curran">
+                    <div class="player-avatar">
+                        <img src="sam curran.jpg" alt="Sam Curran">
+                    </div>
+                    <h3 class="player-name">Sam Curran</h3>
+                    <p class="player-role">All-Rounder</p>
+                </div>
+
+                <div class="player-card" data-player="shivam dube">
+                    <div class="player-avatar">
+                        <img src="shivam dube.jpg" alt="Shivam Dube">
+                    </div>
+                    <h3 class="player-name">Shivam Dube</h3>
+                    <p class="player-role">All-Rounder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <h2 class="section-title">CHAMPIONSHIP RECORDS</h2>
+            <p class="section-subtitle">Witness the <span class="accent">legendary statistics</span> that define greatness</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🏆</div>
+                    <h3 class="stat-title">IPL Titles</h3>
+                    <div class="stat-value">5</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">🔥</div>
+                    <h3 class="stat-title">Finals Reached</h3>
+                    <div class="stat-value">12</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">⚡</div>
+                    <h3 class="stat-title">Win Percentage</h3>
+                    <div class="stat-value">72%</div>
+                </div>
+            </div>
+
+            <div class="achievements-timeline">
+                <h3 class="timeline-title">TIMELINE</h3><br>
+                <div class="timeline">
+                    <div class="timeline-glow-line"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2008</div>
+                        <div class="timeline-content">CSK Founded - The Yellow Army Begins</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2010</div>
+                        <div class="timeline-content">First IPL Title - Champions Under Dhoni</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2011</div>
+                        <div class="timeline-content">Back-to-Back Champions</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2018</div>
+                        <div class="timeline-content">Comeback Kings - 3rd Title</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2021</div>
+                        <div class="timeline-content">Fourth Crown in Dubai</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-content">Fifth Title - Record Equaled</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">THE GOLDEN LEGACY</h2>
+            <p class="section-subtitle">Discover the <span class="accent">legendary journey</span> of cricket's most beloved franchise</p>
+            
+            <div class="about-grid">
+                <div class="about-card dhoni-special">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <h3>Captain Cool</h3><br>
+                            <span class="subtitle">MS Dhoni Legacy</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <p> Under his leadership he transformed CSK into a dynasty. CSK became the most popular team in IPL history. They Won 5 titles and 12 Finals</p>
+                        <div class="dhoni-stats">
+                            <div class="dhoni-stat">
+        
+                            </div>
+                            <div class="dhoni-stat">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <h3>Chepauk Fortress</h3><br>
+                    <p>The place where dreams come true and opponents fear to tread. The roar of 50,000+ fans creates magic.</p>
+                </div>
+
+                <div class="about-card">
+                    <h3>Consistency</h3>
+                    <p>The only team to reach playoffs 12 times out of 14 seasons. When others fluctuate, CSK delivers excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">GOLDEN MOMENTS</h2>
+            <p class="section-subtitle">Relive the <span class="accent">Golden Moments</span> that define our Championship legacy</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="dhoni tophy.jpg" alt="IPL Trophies">
+                    <div class="gallery-overlay">
+                        <h3>Iconic Moment</h3>
+                        <p>The golden collection</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="chepauk stadium.jpg" alt="Chepauk Stadium">
+                    <div class="gallery-overlay">
+                        <h3>Chepauk Stadium</h3>
+                        <p>Our Home</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="trophy.jpg" alt="IPL Trophy">
+                    <div class="gallery-overlay">
+                        <h3>Champions Trophy</h3>
+                        <p>Symbol of Excellence</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item wide">
+                    <img src="ipl celebration.jpg" alt="Team Celebration">
+                    <div class="gallery-overlay">
+                        <h3>Team Celebration</h3>
+                        <p>Victory moments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="fire lion.jpg" alt="CSK Logo">
+                        <span>CSK</span>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/chennaiipl/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/TheChennaiSuperKings/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/user/whistle4CSK"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chennai Super Kings. All rights reserved. | ✨by CSK Fans</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
